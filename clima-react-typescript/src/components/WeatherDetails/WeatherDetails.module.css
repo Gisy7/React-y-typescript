@@ -1,0 +1,27 @@
+.weatherDetails {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--white);
+    color:black;
+    border-radius: 2em;
+    gap:50px;
+    padding: 20px;
+
+    & div {
+        display: flex;
+        justify-content: space-evenly;
+       
+
+        .tempC, .humidity {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+    & .condition {
+        font-weight: 800;
+        font-size: 5rem;
+    }
+}

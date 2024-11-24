@@ -1,6 +1,12 @@
 :root {
   --white: #FFF;
   --primary: #F59E0B;
+  --error: #f50b0b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 html {
