@@ -1,0 +1,43 @@
+.container {
+  max-width: 58rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.title {
+  font-size: large;
+}
+
+
+h1 {
+  color: var(--primary);
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 2.2rem 
+}
+
+
+.content {
+  background-color: white;
+  padding: 30px;  
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+  
+}
